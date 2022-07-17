@@ -11,7 +11,7 @@ export default function Home() {
     <>
       <ServicingContext.Provider value={value}>
         <Head>
-          <meta name='manifest' content='/manifest.json' />
+          <link rel="manifest" href="/manifest.json" />
           <meta name='application-name' content='My Digital Wallet' />
           <title>My Bookmark</title>
         </Head>
