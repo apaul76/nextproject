@@ -11,6 +11,7 @@ export default function Home() {
     <>
     <ServicingContext.Provider value={value}>
       <Head>
+        <meta name='application-name' content='My Digital Wallet' />
         <title>My Bookmark</title>
       </Head>
       <GlobalStyle />
