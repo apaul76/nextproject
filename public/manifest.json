@@ -5,7 +5,7 @@
   "scope": "/",
   "start_url": "/",
   "name": "Next PWA",
-  "short_name": "PWA",
+  "short_name": "ZWallet",
   
   "description": "This app is to demo PWA in Next.js",
   "icons": [
