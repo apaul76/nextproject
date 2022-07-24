@@ -18,11 +18,11 @@ export const NavigationHeader = styled.header`
 
 export const Wishme = styled.div`
 span{
-    font-size: 0.7rem;
+    font-size: 0.7em;
     font-weight: bold;
 }
 p{
-    font-size:0.8rem;
+    font-size:1.2rem;
     font-weight: bold;
     margin:0px
 }
