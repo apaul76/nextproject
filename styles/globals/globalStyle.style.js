@@ -6,6 +6,7 @@ const GlobalStyle = createGlobalStyle `
     }
     body{
         margin:0px;
+        padding-top:10px;
         background: #4C3F91;
         color:#ffff;
         & #simple-popover{
