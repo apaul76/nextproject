@@ -6,12 +6,7 @@ const GlobalStyle = createGlobalStyle `
     }
     body{
         margin:0px;
-        background: url('images/background.png');
-         height: 100%;
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+        background: #483edf;
         color:#ffff;
         & #simple-popover{
             & .MuiPopover-paper{
