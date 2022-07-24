@@ -6,7 +6,7 @@ const GlobalStyle = createGlobalStyle `
     }
     body{
         margin:0px;
-        background: #483edf;
+        background: #4C3F91;
         color:#ffff;
         & #simple-popover{
             & .MuiPopover-paper{
