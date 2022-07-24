@@ -11,6 +11,8 @@ import {
  import PersonAdd from '@mui/icons-material/PersonAdd';
  import Settings from '@mui/icons-material/Settings';
  import Logout from '@mui/icons-material/Logout';
+ import MenuIcon from '@mui/icons-material/Menu';
+ import {RoundedMenu} from '../../../styles/components/NavigationMenu.style';
 const UserMenuWidget = () => {
   const [anchorEl, setAnchorEl] = useState(null);
   const open = Boolean(anchorEl);
@@ -31,7 +33,9 @@ const UserMenuWidget = () => {
             aria-haspopup="true"
             aria-expanded={open ? 'true' : undefined}
           >
-            <Avatar sx={{ width: 32, height: 32 }}>A</Avatar>
+            <RoundedMenu>
+            <MenuIcon/>
+            </RoundedMenu>
           </IconButton>
         </Tooltip>
       <Menu

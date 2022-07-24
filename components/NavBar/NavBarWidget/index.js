@@ -15,8 +15,7 @@ const NavBarWidget = ({title}) => {
             </IconButton> */}
             <Typography variant="h6" noWrap component="span" sx={{ flexGrow: 1 }}>
                <Wishme>
-                <span>Good Morning!</span>
-                <p>Avijit P.</p>
+                <span>Hi! Avijit P.</span>     
                </Wishme>
             </Typography>
             <UserMenuWidget />

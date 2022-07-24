@@ -27,3 +27,14 @@ p{
     margin:0px
 }
 `
+
+export const RoundedMenu = styled.div`
+border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    background: #FFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+`

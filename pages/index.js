@@ -3,6 +3,7 @@ import Head from 'next/head';
 import GlobalStyle from '../styles/globals/globalStyle.style';
 import PageContainerWrapper from '../components/PageContainerWrapper/PageContainerWrapper';
 import ServicingContext from "../context/context";
+import DashBoard from "./Dashboard";
 
 const Home = () => {
   const [show, setShowBackdrop] = useState(false);
@@ -33,7 +34,7 @@ useEffect(()=>{
             <>
             <GlobalStyle />
             <PageContainerWrapper>
-             
+             <DashBoard />
             </PageContainerWrapper>
             </>
           ) : 
