@@ -1,10 +1,17 @@
 import styled, {createGlobalStyle} from "styled-components";
 
 const GlobalStyle = createGlobalStyle `
+    body, html {
+     height: 100%;
+    }
     body{
-        padding-top: 10px;
         margin:0px;
-        background: #1f2d7c;
+        background: url('images/background.png');
+         height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
         color:#ffff;
         & #simple-popover{
             & .MuiPopover-paper{
