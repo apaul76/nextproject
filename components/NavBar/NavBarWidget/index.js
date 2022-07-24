@@ -5,6 +5,7 @@ import {
      IconButton
  } from "@mui/material";
  import MenuIcon from '@mui/icons-material/Menu';
+ import {Wishme} from '../../../styles/components/NavigationMenu.style';
 
 const NavBarWidget = ({title}) => {
     return (
@@ -13,7 +14,10 @@ const NavBarWidget = ({title}) => {
                 <MenuIcon/>
             </IconButton> */}
             <Typography variant="h6" noWrap component="span" sx={{ flexGrow: 1 }}>
-                {title}
+               <Wishme>
+                <span>Good Morning!</span>
+                <p>Avijit P.</p>
+               </Wishme>
             </Typography>
             <UserMenuWidget />
         </Toolbar>

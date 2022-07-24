@@ -5,7 +5,7 @@ import NavBarWidget from './NavBarWidget';
 const NavBar = () => {
     return (
         <NavigationHeader>
-           <NavBarWidget title="My Wallet"/>
+           <NavBarWidget title="Tap Wallet"/>
         </NavigationHeader>
     );
 }

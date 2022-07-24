@@ -17,7 +17,7 @@ const Home = () => {
       (window.navigator.standalone) || document.referrer.includes('android-app://');
 
 useEffect(()=>{
-  setMobileDevice(isMobile() && isInStandaloneMode())
+  setMobileDevice(isMobile() /*&& isInStandaloneMode()*/)
 },[])
       
   return (
@@ -33,7 +33,7 @@ useEffect(()=>{
             <>
             <GlobalStyle />
             <PageContainerWrapper>
-              <p>Hello World</p>
+             
             </PageContainerWrapper>
             </>
           ) : 

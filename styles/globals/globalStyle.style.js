@@ -3,7 +3,8 @@ import styled, {createGlobalStyle} from "styled-components";
 const GlobalStyle = createGlobalStyle `
     body{
         margin:0px;
-        background:#f9fafb;
+        background:#111427;
+        color:#ffff;
         & #simple-popover{
             & .MuiPopover-paper{
                 background:#ffff!important;
