@@ -16,7 +16,7 @@ background: ${(props) => colorPicker[props.colorScheme]};
     height: 165px;
     width: 100%;
     color: #ffff;
-    box-shadow: 1px 6px 10px 5px #aba5a570;
+    box-shadow: 1px 4px 3px 0px #aba5a570;
     padding: 15px;
     justify-content: end;
     & ul {
