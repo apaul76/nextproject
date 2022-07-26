@@ -7,7 +7,11 @@ const GlobalStyle = createGlobalStyle `
     body{
         margin:0px;
         padding-top:10px;
-        background: #4C3F91;
+        background: url('images/background.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
         color:#ffff;
         & #simple-popover{
             & .MuiPopover-paper{
