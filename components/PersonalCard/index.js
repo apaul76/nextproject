@@ -8,7 +8,7 @@ const PersonalCard = () => {
         <PersonalCardContainer colorScheme="blue">
             <ul>
                 <li>AADHAAR</li>
-                <li>{format('515105725637')}</li>
+                <li>{format('514409725888')}</li>
                 <li>Male |  DOB: 03-02-1992</li>
             </ul>
         </PersonalCardContainer>
