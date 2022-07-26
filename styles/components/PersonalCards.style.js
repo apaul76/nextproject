@@ -16,7 +16,7 @@ border-radius: 10px;
 height: 200px;
 width: 100%;
 color: #ffff;
-box-shadow:1px 6px 10px 5px #aba5a570;
+box-shadow:1px 6px 10px 5px #aba5a569;
 `
 
 export {
