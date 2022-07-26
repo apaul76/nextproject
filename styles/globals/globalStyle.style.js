@@ -1,18 +1,15 @@
 import styled, {createGlobalStyle} from "styled-components";
 
+
 const GlobalStyle = createGlobalStyle `
     body, html {
-     height: 100%;
+     font-family: 'Roboto Slab', serif;
+     /*font-family: 'Titillium Web', sans-serif;*/
     }
     body{
         margin:0px;
         padding-top:10px;
-        background: url('images/background.jpg');
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: relative;
-        color:#ffff;
+        background:#eaf0f7;
         & #simple-popover{
             & .MuiPopover-paper{
                 background:#ffff!important;

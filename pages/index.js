@@ -27,7 +27,10 @@ useEffect(()=>{
         <Head>
           <link rel="manifest" href="/manifest.json" />
           <meta name='application-name' content='My Digital Wallet' />
-          <title>My Bookmark</title>
+          <link rel="preconnect" href="https://fonts.googleapis.com"/>
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/> 
+          <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Titillium+Web:wght@200&display=swap" rel="stylesheet"/> 
+          <title>Tap Wallet</title>
         </Head>
         {
           checkMobileDevice ? (

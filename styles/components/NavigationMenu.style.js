@@ -20,6 +20,7 @@ export const Wishme = styled.div`
 span{
     font-size: 0.8em;
     font-weight: bold;
+    color: #525151;
 }
 p{
     font-size:1.2rem;
@@ -36,5 +37,6 @@ border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: 1px 2px 7px #808080b5;
 }
 `
