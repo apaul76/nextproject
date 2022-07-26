@@ -6,7 +6,7 @@ const DashBoard = () => {
     return (
         <DashBoardContainer>
             <DashBoardContent>
-            <Carousel autoPlay={false} stopAutoPlayOnHover={true} >
+            <Carousel>
             <PersonalCard />
             <PersonalCard />
             </Carousel>
