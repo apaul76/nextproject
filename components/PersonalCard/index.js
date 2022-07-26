@@ -3,7 +3,7 @@ import { PersonalCardContainer } from "../../styles/components/PersonalCards.sty
 const PersonalCard = () => {
     return (
         <PersonalCardContainer>
-            Personal Cards
+            Personal Card
         </PersonalCardContainer>
     )
 }
