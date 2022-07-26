@@ -2,7 +2,7 @@ import { PersonalCardContainer } from "../../styles/components/PersonalCards.sty
 
 const PersonalCard = () => {
     return (
-        <PersonalCardContainer colorScheme="cremsy">
+        <PersonalCardContainer colorScheme="blue">
             Personal Card
         </PersonalCardContainer>
     )
