@@ -6,6 +6,22 @@ const DashBoardContainer = styled.div`
     margin: 20px 16px 20px 16px;
 `
 
+const DashBoardContent =  styled.div`
+width:100%!important
+`
+
+const Carousel = styled.div`
+        margin: 1rem auto;
+        & span {
+            padding: 0px 7px 0px 7px;
+        }
+        & span:nth-child(even){
+            padding: 0px;
+        }
+`
+
 export {
-    DashBoardContainer
+    DashBoardContainer,
+    DashBoardContent,
+    Carousel,
 }
