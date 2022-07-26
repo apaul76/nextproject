@@ -3,7 +3,7 @@ import { PersonalCardContainer } from "../../styles/components/PersonalCards.sty
 const PersonalCard = () => {
     return (
         <PersonalCardContainer colorScheme="blue">
-            Personal Card
+            Personal Cards
         </PersonalCardContainer>
     )
 }
