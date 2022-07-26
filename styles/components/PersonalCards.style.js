@@ -7,7 +7,7 @@ background: #ffff;
 border-radius: 10px;
 height: 200px;
 width: 100%;
-box-shadow:0px 9px 10px 0px #aba5a570;
+box-shadow:1px 5px 5px 0px #aba5a570;
 `
 
 export {
