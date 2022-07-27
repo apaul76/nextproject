@@ -4,6 +4,8 @@ import GlobalStyle from '../styles/globals/globalStyle.style';
 import PageContainerWrapper from '../components/PageContainerWrapper/PageContainerWrapper';
 import ServicingContext from "../context/context";
 import DashBoard from "./Dashboard";
+import Fab from '@mui/material/Fab';
+import AddIcon from '@mui/icons-material/Add';
 
 const Home = () => {
   const [show, setShowBackdrop] = useState(false);
@@ -38,6 +40,11 @@ useEffect(()=>{
             <GlobalStyle />
             <PageContainerWrapper>
              <DashBoard />
+             <Fab size="small" color="primary" aria-label="add" style={{position: "fixed",
+    bottom: "8px",
+    left: "7px",background:"#8bc34a", border: "1px solid #c0ff77"}}>
+              <AddIcon />
+            </Fab>
             </PageContainerWrapper>
             </>
           ) : 
