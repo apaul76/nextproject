@@ -7,7 +7,10 @@ const DashBoardContainer = styled.div`
 `
 
 const DashBoardContent =  styled.div`
-width:100%!important
+    display: flex;
+    flex-direction: column;
+    overflow-x: scroll;
+    margin-top: 17%;
 `
 
 const Carousel = styled.div`

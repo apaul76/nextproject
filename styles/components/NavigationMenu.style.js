@@ -12,7 +12,10 @@ export const NavigationHeader = styled.header`
     & .toolbar{
         min-height: 50px;
     }
-    background:#6236ff00;
+    position: fixed;
+    top: 0;
+    background: #eaf0f7;
+    padding-top: 15px;
     background-blend-mode: multiply;
 `;
 
