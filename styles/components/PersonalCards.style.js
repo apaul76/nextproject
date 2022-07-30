@@ -1,17 +1,19 @@
 import styled from 'styled-components';
 
 const colorPicker = {
-    orange: '#fe974b',
     violet: '#6752a8',
-    blue: '#7770ff',
     breeze: '#7ba5ff',
-    cremsy: '#f3665d'
+    cremsy: '#f3665d',
+    blue: 'images/blue.png',
+    purple: 'images/card1.jpg',
+    green: 'images/card4.jpg',
 }
 
 
 const PersonalCardContainer = styled.div`
 display: flex;
-background: ${(props) => colorPicker[props.colorScheme]};
+background: url(${(props) => colorPicker[props.colorScheme]});
+background-position: right;
     border-radius: 10px;
     height: 196px;
     width: 100%;
@@ -38,7 +40,8 @@ background: ${(props) => colorPicker[props.colorScheme]};
             margin-bottom: 0px;
         }
     }
-    &:hover{
+    &:hover,
+     &:focus{
         transform: scale(1.05);
     }
 `

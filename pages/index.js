@@ -42,7 +42,7 @@ useEffect(()=>{
              <DashBoard />
              <Fab size="small" color="primary" aria-label="add" style={{position: "fixed",
     bottom: "8px",
-    left: "7px",background:"#8bc34a"}}>
+    left: "7px",background:"#ff2626"}}>
               <AddIcon />
             </Fab>
             </PageContainerWrapper>

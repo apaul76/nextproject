@@ -2,7 +2,7 @@ import PersonalCard from "../../components/PersonalCard";
 import { DashBoardContainer,DashBoardContent} from "../../styles/container/dashboard/dashboard.style";
 
 const DashBoard = () => {
-    const personalcard = ["violet","breeze","cremsy"];
+    const personalcard = ["purple","blue","green"];
     return (
         <DashBoardContent>
             {
