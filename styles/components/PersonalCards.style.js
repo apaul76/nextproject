@@ -13,11 +13,10 @@ const PersonalCardContainer = styled.div`
 display: flex;
 background: ${(props) => colorPicker[props.colorScheme]};
     border-radius: 10px;
-    height: 165px;
+    height: 196px;
     width: 100%;
     color: #ffff;
     box-shadow: 1px 4px 3px 0px #aba5a570;
-    padding: 15px;
     justify-content: end;
     & ul {
         list-style:none;
@@ -27,21 +26,28 @@ background: ${(props) => colorPicker[props.colorScheme]};
         letter-spacing: 2px;
         & li {
             margin-bottom: 35px;
+            z-index: -1;
         }
         & li:nth-child(2){
             font-size: 1.8rem;
+            margin-top: 3rem;
         }
         & li:nth-child(3){
             font-size: 0.84rem;
-            margin-top: 2.7rem;
+            margin-top: 3rem;
+            margin-bottom: 0px;
         }
     }
-    &:hover{
+    &:hover,
+     &:focus{
         transform: scale(1.05);
-        box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
     }
+`
+const CardContent = styled.div`
+padding: 15px;
 `
 
 export {
-    PersonalCardContainer
+    PersonalCardContainer,
+    CardContent
 }

@@ -17,6 +17,7 @@ export const NavigationHeader = styled.header`
     background: #eaf0f7;
     padding-top: 15px;
     background-blend-mode: multiply;
+    z-index: 100;
 `;
 
 export const Wishme = styled.div`
