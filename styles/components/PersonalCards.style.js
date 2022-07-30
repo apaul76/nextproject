@@ -5,15 +5,20 @@ const colorPicker = {
     breeze: '#7ba5ff',
     cremsy: '#f3665d',
     blue: 'images/blue.png',
-    purple: 'images/card1.jpg',
-    green: 'images/card4.jpg',
+    purple: 'images/pur.png',
+    green: 'images/green.png',
 }
 
+const postion = {
+    blue: 'right',
+    purple: 'bottom',
+    green: 'top',
+}
 
 const PersonalCardContainer = styled.div`
 display: flex;
 background: url(${(props) => colorPicker[props.colorScheme]});
-background-position: right;
+background-position: ${(props) => postion[props.colorScheme]};
     border-radius: 10px;
     height: 196px;
     width: 100%;
