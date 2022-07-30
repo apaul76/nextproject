@@ -40,8 +40,7 @@ background-position: right;
             margin-bottom: 0px;
         }
     }
-    &:hover,
-     &:focus{
+    &:hover{
         transform: scale(1.05);
     }
 `
