@@ -33,9 +33,10 @@ const UserMenuWidget = () => {
             aria-haspopup="true"
             aria-expanded={open ? 'true' : undefined}
           >
-            <RoundedMenu>
+            {/* <RoundedMenu>
             <MenuIcon/>
-            </RoundedMenu>
+            </RoundedMenu> */}
+            <img src="images/menu.png" width="32px"/>
           </IconButton>
         </Tooltip>
       <Menu
