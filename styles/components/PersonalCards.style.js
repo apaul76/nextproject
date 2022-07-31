@@ -25,6 +25,7 @@ background-position: ${(props) => postion[props.colorScheme]};
     color: #ffff;
     box-shadow: 1px 4px 3px 0px #aba5a570;
     justify-content: end;
+    transition: transform 300ms;
     & ul {
         list-style:none;
         text-align: right;
