@@ -4,12 +4,18 @@ import { CardActionArea } from "@mui/material";
 import SettingsIcon from '@mui/icons-material/Settings';
 import VisibilityIcon from '@mui/icons-material/Visibility';
 
-const PersonalCard = ({ colors, cardInformation }) => {
+const PersonalCard = ({ colors, cardInformation, index }) => {
     const format = (s) => {
         let res = [...s].map((d, i) => (i) % (s.length > 8 ? 4 : 3 ) == 0 ? ' ' + d : d).join('').trim()
         console.log(res)
         return res;
     };
+    const [blurEffect,setBlurEffect] = useState(false); 
+    const [indexCnt,setIndexCont] = useState(null);
+    const handleOnClick = () => {
+        setBlurEffect(!blurEffect);
+        setIndexCont(index);
+    }
     return (
         <>
         <PersonalCardContainer colorScheme={colors}>

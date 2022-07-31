@@ -39,6 +39,7 @@ const DashBoard = () => {
                             <PersonalCard
                             colors={personalcard[index]}
                             cardInformation={item}
+                            index={index}
                             />
                             </DashBoardContainer>
                         )

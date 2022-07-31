@@ -70,11 +70,13 @@ background-position: ${(props) => postion[props.colorScheme]};
                     margin-bottom: 24px;
                     margin-top: 29px;
                 }
+                
             }
+            pointer-events: none;
         }
     }
     & button{
-        &:hover{
+        &:focus{
             filter:blur(2px);
             background:#6a6a6a5e;
            
