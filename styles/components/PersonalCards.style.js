@@ -46,8 +46,32 @@ background-position: ${(props) => postion[props.colorScheme]};
             margin-bottom: 0px;
         }
     }
+    & .cardMenu{
+        display: none!important;
+    }
     &:hover{
         transform: scale(1.05);
+        & .cardMenu{
+            transition: width 1s ease-in-out;
+            border-radius: 0px 10px 10px 0px;
+            z-index: 100;
+            position: absolute;
+            background: #4a4747e6;
+            height: 196px;
+            display: flex!important;
+            transition: width 0.5s ease-in-out;
+            width:20%;
+            justify-content: center;
+            align-items:center;
+            & ul{
+                padding: 0px;
+                & li{
+                    line-height: 22px;
+                    margin-bottom: 24px;
+                    margin-top: 29px;
+                }
+            }
+        }
     }
     & button{
         &:hover{

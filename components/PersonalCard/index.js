@@ -1,6 +1,8 @@
 import { useState } from "react";
 import { PersonalCardContainer, CardContent } from "../../styles/components/PersonalCards.style";
 import { CardActionArea } from "@mui/material";
+import SettingsIcon from '@mui/icons-material/Settings';
+import VisibilityIcon from '@mui/icons-material/Visibility';
 
 const PersonalCard = ({ colors, cardInformation }) => {
     const format = (s) => {
@@ -9,6 +11,7 @@ const PersonalCard = ({ colors, cardInformation }) => {
         return res;
     };
     return (
+        <>
         <PersonalCardContainer colorScheme={colors}>
             <CardActionArea>
                 <CardContent>
@@ -21,7 +24,21 @@ const PersonalCard = ({ colors, cardInformation }) => {
                     </ul>
                 </CardContent>
             </CardActionArea>
+            <div className="cardMenu">
+                <ul>
+                    <li>
+                        <SettingsIcon/>
+                    </li>
+                    <li>
+                        <VisibilityIcon/>
+                    </li>
+                    <li>
+                        <img src="images/qr-code.png" width="27px"/>
+                    </li>
+                </ul>
+            </div>
         </PersonalCardContainer>
+        </>
     )
 }
 export default PersonalCard
