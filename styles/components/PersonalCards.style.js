@@ -48,6 +48,12 @@ background-position: ${(props) => postion[props.colorScheme]};
     &:hover{
         transform: scale(1.05);
     }
+    & button{
+        &:hover{
+            filter:blur(2px);
+            background:#6a6a6a5e
+        }
+    }
 `
 const CardContent = styled.div`
 padding: 15px;
