@@ -51,9 +51,14 @@ background-position: ${(props) => postion[props.colorScheme]};
     & button{
         &:hover{
             filter:blur(2px);
-            background:#6a6a6a5e
+            background:#6a6a6a5e;
+           
         }
     }
+    @keyframes fadeIn {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+          }
 `
 const CardContent = styled.div`
 padding: 15px;

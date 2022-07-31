@@ -2,18 +2,22 @@ import { useState } from "react";
 import { PersonalCardContainer, CardContent } from "../../styles/components/PersonalCards.style";
 import { CardActionArea } from "@mui/material";
 
-const PersonalCard = ({ colors }) => {
+const PersonalCard = ({ colors, cardInformation }) => {
     const format = (s) => {
-        return s.toString().replace(/\d{4}(?=.)/g, '$& ');
+        let res = [...s].map((d, i) => (i) % (s.length > 8 ? 4 : 3 ) == 0 ? ' ' + d : d).join('').trim()
+        console.log(res)
+        return res;
     };
     return (
         <PersonalCardContainer colorScheme={colors}>
             <CardActionArea>
                 <CardContent>
                     <ul>
-                        <li>AADHAAR</li>
-                        <li>{format('514409725888')}</li>
-                        <li>Male |  DOB: 03-02-1992</li>
+                        <li>{cardInformation.title}</li>
+                        <li>{format(cardInformation.cardno)}</li>
+                        <li>
+                            {cardInformation.otherinfo.map((item, index) => { return `${item} ${index !== (cardInformation.otherinfo.length - 1) ? '|' : ''} ` })}
+                        </li>
                     </ul>
                 </CardContent>
             </CardActionArea>
