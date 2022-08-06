@@ -8,7 +8,7 @@ const DashBoard = () => {
     const cardDetails = [
         {
             title:"AADHAAR",
-            cardno: "514409725828",
+            cardno: "514409725728",
             otherinfo: [
                 "Male",
                 "DOB: 03-02-1992"
