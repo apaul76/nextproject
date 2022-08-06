@@ -40,11 +40,14 @@ useEffect(()=>{
             <GlobalStyle />
             <PageContainerWrapper>
              <DashBoard />
-             <Fab size="small" color="primary" aria-label="add" style={{position: "fixed",
-    bottom: "8px",
-    left: "7px",background:"#3f51b5"}}>
-              <AddIcon />
-            </Fab>
+              <div style={{display: 'flex',
+               justifyContent: 'center',
+                boxShadow: '1px -3px 4px #80808070',
+                position: 'absolute',
+                width:' 100%',
+                }}>
+               <img src="images/money.png" style={{ width: '16%',marginTop: '-23px'}}/>
+              </div>
             </PageContainerWrapper>
             </>
           ) : 
