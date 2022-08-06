@@ -39,7 +39,7 @@ const PersonalCard = ({ colors, cardInformation, index }) => {
                         <VisibilityIcon/>
                     </li>
                     <li>
-                        <img src="images/qr-code.png" width="27px"/>
+                        <img src="images/qr-code.png" width="27px" onClick={(e)=>console.log(e)}/>
                     </li>
                 </ul>
             </div>

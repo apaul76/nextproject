@@ -1,7 +1,6 @@
 import PersonalCard from "../../components/PersonalCard";
 import { DashBoardContainer,DashBoardContent} from "../../styles/container/dashboard/dashboard.style";
-import { SmoothProvider } from "react-smooth-scrolling";
-
+import { SmoothProvider } from 'react-smooth-scrolling'
 
 const DashBoard = () => {
     const personalcard = ["purple","blue","green"];
