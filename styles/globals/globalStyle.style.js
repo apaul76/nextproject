@@ -20,15 +20,15 @@ const GlobalStyle = createGlobalStyle `
                 border:1px solid white;
             }
         }
-    }
-    .scrollbar-track{
-        background:rgb(222 222 222 / 0%);
-    }
-    .scrollbar-thumb{
-        width: 0px;
-        height: 0px;
-        background: rgb(0 0 0 / 0%);
-        border-radius: 0px;
+        & .scrollbar-track{
+            background:rgb(222 222 222 / 0%)!important;
+        }
+        & .scrollbar-thumb{
+            width: 0px!important;
+            height: 0px!important;
+            background: rgb(0 0 0 / 0%)!important;
+            border-radius: 0px!important;
+        }
     }
 `
 export default GlobalStyle
