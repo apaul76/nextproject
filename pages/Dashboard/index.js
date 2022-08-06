@@ -1,5 +1,7 @@
+import { useEffect } from "react";
 import PersonalCard from "../../components/PersonalCard";
 import { DashBoardContainer,DashBoardContent} from "../../styles/container/dashboard/dashboard.style";
+import Scrollbar from 'smooth-scrollbar';
 
 const DashBoard = () => {
     const personalcard = ["purple","blue","green"];
@@ -29,8 +31,17 @@ const DashBoard = () => {
             ]
         }
     ]
+    useEffect(()=>{
+        Scrollbar.init(document.querySelector('#my-scrollbar'), {
+            damping:0.1,
+            thumbMinSize: 20,
+            renderByPixels: true,
+            alwaysShowTracks: false,
+            continuousScrolling:true,
+        });
+    })
     return (
-        <DashBoardContent>
+        <DashBoardContent id="my-scrollbar" style={{ height:'82vh'}}>
             {
                 cardDetails.map((item , index) => 
                     {
