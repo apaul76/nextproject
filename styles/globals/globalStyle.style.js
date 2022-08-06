@@ -2,6 +2,9 @@ import styled, {createGlobalStyle} from "styled-components";
 
 
 const GlobalStyle = createGlobalStyle `
+    html {
+        scroll-behavior: smooth;
+    }
     body, html {
      font-family: 'Roboto Slab', serif;
      /*font-family: 'Titillium Web', sans-serif;*/

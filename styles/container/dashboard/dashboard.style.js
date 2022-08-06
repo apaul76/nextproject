@@ -11,6 +11,7 @@ const DashBoardContent =  styled.div`
     flex-direction: column;
     overflow-x: scroll;
     margin-top: 17%;
+    scroll-
 `
 
 const Carousel = styled.div`
