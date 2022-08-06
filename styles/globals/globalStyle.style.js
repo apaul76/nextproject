@@ -21,5 +21,14 @@ const GlobalStyle = createGlobalStyle `
             }
         }
     }
+    .scrollbar-track{
+        background:rgb(222 222 222 / 0%);
+    }
+    .scrollbar-thumb{
+        width: 0px;
+        height: 0px;
+        background: rgb(0 0 0 / 0%);
+        border-radius: 0px;
+    }
 `
 export default GlobalStyle
