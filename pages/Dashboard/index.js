@@ -41,7 +41,7 @@ const DashBoard = () => {
         });
     })
     return (
-        <DashBoardContent id="my-scrollbar" style={{ height:'82vh'}}>
+        <DashBoardContent id="my-scrollbar" style={{ height:'84vh'}}>
             {
                 cardDetails.map((item , index) => 
                     {
