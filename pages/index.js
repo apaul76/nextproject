@@ -46,7 +46,7 @@ useEffect(()=>{
                 position: 'absolute',
                 width:' 100%',
                 }}>
-               <img src="images/money.png" style={{ width: '20%',marginTop: '-23px'}}/>
+               <img src="images/money.png" style={{ width: '20%',marginTop: '-29px'}}/>
               </div>
             </PageContainerWrapper>
             </>
