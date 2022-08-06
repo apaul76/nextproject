@@ -42,11 +42,11 @@ useEffect(()=>{
              <DashBoard />
               <div style={{display: 'flex',
                justifyContent: 'center',
-                boxShadow: '1px -3px 4px #80808070',
+                boxShadow: 'rgb(128 128 128 / 21%) 2px -6px 4px 0px',
                 position: 'absolute',
                 width:' 100%',
                 }}>
-               <img src="images/money.png" style={{ width: '20%',marginTop: '-29px'}}/>
+               <img src="images/add-text.png" style={{ width: '14%',marginTop: '-22px'}}/>
               </div>
             </PageContainerWrapper>
             </>
