@@ -1,5 +1,7 @@
 import PersonalCard from "../../components/PersonalCard";
 import { DashBoardContainer,DashBoardContent} from "../../styles/container/dashboard/dashboard.style";
+import { SmoothProvider } from "react-smooth-scrolling";
+
 
 const DashBoard = () => {
     const personalcard = ["purple","blue","green"];
@@ -30,6 +32,7 @@ const DashBoard = () => {
         }
     ]
     return (
+        <SmoothProvider skew={true}>
         <DashBoardContent>
             {
                 cardDetails.map((item , index) => 
@@ -47,6 +50,7 @@ const DashBoard = () => {
                 )
             }
         </DashBoardContent>
+        </SmoothProvider>
     )
 }
 
